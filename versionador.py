@@ -44,8 +44,7 @@ def atualizar_tabela():
 
 # Configuração da interface gráfica
 app = tk.Tk()
-app.title("Sistem"
-          "a de Versionamento")
+app.title("Sistema de Versionamento v1.0.0")
 app.geometry("800x600")
 
 nome_sistema_label = tk.Label(app, text="Nome do Sistema:")
