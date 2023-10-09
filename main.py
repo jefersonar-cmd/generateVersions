@@ -46,7 +46,7 @@ def atualizar_tabela():
 
 # Configuração da interface gráfica
 app = tk.Tk()
-app.title("App Chronicles v1.0.7")
+app.title("App Chronicles v1.0.7 by Jefferson S.A")
 app.geometry("600x300")
 app.resizable(False, False)
 
