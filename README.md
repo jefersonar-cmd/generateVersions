@@ -28,9 +28,7 @@ Agradecemos por escolher o App Chronico para gerenciar suas versões de sistemas
 
 Siga-nos nas redes sociais para obter as últimas atualizações e informações sobre o App Chronico:
 
-- [Website Oficial](https://www.appchronico.com)
-- [Twitter](https://twitter.com/appchronico)
-- [Facebook](https://www.facebook.com/appchronico)
-- [Instagram](https://www.instagram.com/appchronico)
+- [Linkedin](https://www.linkedin.com/in/jeffsantosaraujo/)
+- [Twitch](https://www.twitch.tv/jeffmetalurgico)
 
 Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco através do nosso site ou das redes sociais mencionadas acima. Obrigado por escolher o App Chronico!
