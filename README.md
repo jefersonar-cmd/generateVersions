@@ -1,12 +1,12 @@
-# App Chronico
+# App Chronicles
 
 ## Objetivo da Aplicação
 
-O App Chronico é uma aplicação de versionamento projetada para ajudar você a gerenciar as versões de seus sistemas de forma eficiente. Ele oferece uma maneira simples e automatizada de atribuir e rastrear versões para seus sistemas, garantindo que você possa manter o controle completo sobre seu desenvolvimento.
+O App Chronicles é uma aplicação de versionamento projetada para ajudar você a gerenciar as versões de seus sistemas de forma eficiente. Ele oferece uma maneira simples e automatizada de atribuir e rastrear versões para seus sistemas, garantindo que você possa manter o controle completo sobre seu desenvolvimento.
 
 ## Funcionalidade e Forma de Uso
 
-O App Chronico permite que você:
+O App Chronicles permite que você:
 
 - Registre sistemas e seus respectivos nomes.
 - Gere automaticamente versões com base em regras específicas.
@@ -20,9 +20,9 @@ O App Chronico permite que você:
 3. O App Chronico aplicará automaticamente as regras de versionamento e atualizará a versão do sistema.
 4. O histórico de versões e datas de registro será mantido e exibido em uma tabela na interface.
 
-## Agradecimentos por Usar o App Chronico
+## Agradecimentos por Usar o App Chronicles
 
-Agradecemos por escolher o App Chronico para gerenciar suas versões de sistemas de forma eficaz. Esperamos que nossa aplicação seja útil para você e ajude a simplificar o processo de versionamento.
+Agradecemos por escolher o App Chronicles para gerenciar suas versões de sistemas de forma eficaz. Esperamos que nossa aplicação seja útil para você e ajude a simplificar o processo de versionamento.
 
 ## Links de Rede Sociais/Sites
 
@@ -31,4 +31,4 @@ Siga-nos nas redes sociais para obter as últimas atualizações e informações
 - [Linkedin](https://www.linkedin.com/in/jeffsantosaraujo/)
 - [Twitch](https://www.twitch.tv/jeffmetalurgico)
 
-Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco através do nosso site ou das redes sociais mencionadas acima. Obrigado por escolher o App Chronico!
+Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco através do nosso site ou das redes sociais mencionadas acima. Obrigado por escolher o App Chronicles!
