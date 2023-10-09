@@ -17,11 +17,13 @@ def gerar_versao():
             versao_atual[0] = int(versao_atual[0])
             versao_atual[1] = int(versao_atual[1])
             versao_atual[2] = int(versao_atual[2])
-            print(versao_atual)
+            #print(versao_atual)
             novo_numero = random.randint(1, 9)
+            #print(novo_numero)
             versao_atual[2] += novo_numero
+            #print(versao_atual[2])
             if versao_atual[2] > 20:
-                versao_atual[2] = novo_numero
+                versao_atual[2] = versao_atual[2] - 20
                 versao_atual[1] += 1
             if versao_atual[1] > 20:
                 versao_atual[1] = novo_numero
@@ -40,12 +42,13 @@ def atualizar_tabela():
     for i in tabela.get_children():
         tabela.delete(i)
     for sistema in sistemas:
-        tabela.insert("", "end", values=sistema)
+        tabela.insert("", tk.END, values=sistema)
 
 # Configuração da interface gráfica
 app = tk.Tk()
-app.title("Sistema de Versionamento v1.0.0")
-app.geometry("800x600")
+app.title("App Chronicle v1.0.7")
+app.geometry("600x300")
+app.resizable(False, False)
 
 nome_sistema_label = tk.Label(app, text="Nome do Sistema:")
 nome_sistema_label.pack(pady=10)
@@ -56,11 +59,14 @@ nome_sistema.pack()
 gerar_versao_button = tk.Button(app, text="Gerar Versão", command=gerar_versao)
 gerar_versao_button.pack(pady=10)
 
-tabela = ttk.Treeview(app, columns=("Nome", "Versão", "Data"))
-tabela.heading("Nome", text="Nome do Sistema")
-tabela.heading("Versão", text="Versão")
-tabela.heading("Data", text="Data da Versão")
-tabela.pack(pady=10)
+tabela = ttk.Treeview(app, columns=("#1", "#2", "#3"), show='headings')
+
+#tabela.heading("#0", text="")
+tabela.heading("#1", text="Nome do Sistema")
+tabela.heading("#2", text="Versão")
+tabela.heading("#3", text="Data da Versão")
+#tabela.column("#0", width=-5)
+tabela.pack(pady=10, padx=10)
 
 # Conectar ao banco de dados SQLite
 conn = sqlite3.connect("versionamento.db")
