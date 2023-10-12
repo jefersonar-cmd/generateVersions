@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="versionamento" uuid="89f7a929-1c1b-4147-83fb-5df37e289852">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>6171bd36-de14-42a7-af15-d64125fc4f50</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\lordo\PycharmProjects\generateVersions\versionamento.db</jdbc-url>
